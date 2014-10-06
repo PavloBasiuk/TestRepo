@@ -2,7 +2,9 @@ Description:
 Small web UI automation tests project to only show how tests can be done.
 
 There are 2 ways of using it:
+
 1. As automation engineer - develop, run and debug tests.
+
 2. As anybody else - just run tests and analyze results.
 
 Pre-requisites:
