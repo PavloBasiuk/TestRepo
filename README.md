@@ -33,16 +33,16 @@ startCompiledTests.bat <module> <browser>
 
 
 Couple of examples: 
-	startCompiledTests.bat 						=> will start all tests in chrome
-	startCompiledTests.bat Login chrome			=> will start only Login related tests in chrome
-	startCompiledTests.bat ActivityStream firefox	=> will start only ActivityStream related tests in firefox
-	startCompiledTests.bat * firefox			=> will start all tests in firefox
+* startCompiledTests.bat 						=> will start all tests in chrome
+* startCompiledTests.bat Login chrome			=> will start only Login related tests in chrome
+* startCompiledTests.bat ActivityStream firefox	=> will start only ActivityStream related tests in firefox
+* startCompiledTests.bat * firefox			=> will start all tests in firefox
 
-
-NOTE: very first run will take much more time because maven will download all dependencies
-NOTE: sometimes it is not working from first time, try to execute same test again then
-NOTE: all parameters are case sensitive
-NOTE: results are not cleared between runs, but only same tests results are overwriten
+NOTES:
+* very first run will take much more time because maven will download all dependencies
+* sometimes it is not working from first time, try to execute same test again then
+* all parameters are case sensitive
+* results are not cleared between runs, but only same tests results are overwriten
 
 
 Results are opened automatically when test run finishes. 
