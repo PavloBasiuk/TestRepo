@@ -1,4 +1,4 @@
-Description:
+## Description:
 Small web UI automation tests project to only show how tests can be done.
 
 There are 2 ways of using it:
@@ -24,7 +24,7 @@ Additional pre-requisites for automation engineers:
 
 
 
-Usage:
+## Usage:
 
 Unpack bin/automation_project-bin.zip to dedicated folder.
 
